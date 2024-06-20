@@ -1,17 +1,23 @@
 from bs4 import BeautifulSoup
-from utils import getPage
+from utils import getPage, getDate
 
 def getAndersonSchool():
-    url = 'https://www.mcmenamins.com/anderson-school/anderson-school-theater'
-    response = getPage(url)
-
-    theater = {
+    andersonSchool = {
         'name': 'Anderson School Theater',
-        'distance': '5.2mi',
-        'travelTime': 20
+        'url': 'https://www.mcmenamins.com/anderson-school/',
+        'location': {
+            'distance': 5.2,
+            'travelTime': 25,
+        },
+        'data-options': {
+            'url': 'https://www.mcmenamins.com/anderson-school/anderson-school-theater',
+            'frequency': 24 * 60,
+            'last_updated': getDate()
+        }
     }
+    response = getPage(andersonSchool['url'])
 
-    if (isinstance(response, BeautifulSoup)):
+    if isinstance(response, BeautifulSoup):
         soup = response
         movies = []
 
@@ -29,6 +35,6 @@ def getAndersonSchool():
             'times': times
         })
 
-        theater['movies'] = movies
+        andersonSchool['movies'] = movies
     
-    return theater
+    return andersonSchool

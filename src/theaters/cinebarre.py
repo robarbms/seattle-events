@@ -1,15 +1,21 @@
 from bs4 import BeautifulSoup
-from utils import getPage
+from utils import getPage, getDate
 
 def getCinebarre ():
-    url = 'https://www.regmovies.com/theatres/regal-cinebarre-mountlake-1958'
-    response = getPage(url)
-
-    theater = {
+    cinebarre = {
         'name': 'Cinebarre',
-        'distance': '2.1mi',
-        'travelTime': 10
+        'url': 'https://www.regmovies.com/theatres/regal-cinebarre-mountlake-1958',
+        'location': {
+            'distance': 2.1,
+            'travelTime': 10,
+        },
+        'data-options': {
+            'url': 'https://www.regmovies.com/theatres/regal-cinebarre-mountlake-1958',
+            'frequency': 24 * 60,
+            'last_updated': getDate()
+        }
     }
+    response = getPage(cinebarre['url'])
 
     if (isinstance(response, BeautifulSoup)):
         soup = response
@@ -32,6 +38,6 @@ def getCinebarre ():
                     'title': title,
                     'times': timeStrings
                 })
-        theater['movies'] = movies
+        cinebarre['movies'] = movies
 
-    return theater
+    return cinebarre
