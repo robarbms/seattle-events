@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup, element
 from utils import getPage, getDate
-import re
 
 
 def getEdmonds():
