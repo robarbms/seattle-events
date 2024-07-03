@@ -5,6 +5,7 @@ import json
 from datetime import datetime
 import time
 import requests
+from utils.dataCleaning import dataCleaning
 
 def getRidgecrest():
 
@@ -58,4 +59,4 @@ def getRidgecrest():
                 'end_time': end_date.strftime("%I:%M %p")
             })
         
-    return ridgecrest
+    return dataCleaning(ridgecrest)

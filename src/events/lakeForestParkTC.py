@@ -78,27 +78,29 @@ def getLFPTC():
             title = title.strip()
             title = title.replace(' - Live Music brought to you by Third Place Commons!', '')
             title_parts = re.match(r'^(.*)( \- )([^\-]*)$', title)
-            band = title_parts[1]
-            genre = title_parts[3]
-            year = date_time[5]
-            start = date_time[6]
-            end = date_time[8]
-            location = date_time[10]
+            if (title_parts):
+                print(title_parts)
+                band = title_parts[1]
+                genre = title_parts[3]
+                year = date_time[5]
+                start = date_time[6]
+                end = date_time[8]
+                location = date_time[10]
 
-            music = {
-                'title': title,
-                'band': band,
-                'genre': genre,
-                'date': {
-                    'day': day,
-                    'month': month,
-                    'year': year
-                },
-                'start_time': start,
-                'end_time': end,
-                'location': location
-            }
+                music = {
+                    'title': title,
+                    'band': band,
+                    'genre': genre,
+                    'date': {
+                        'day': day,
+                        'month': month,
+                        'year': year
+                    },
+                    'start_time': start,
+                    'end_time': end,
+                    'location': location
+                }
 
-            lfptc['events'].append(music)
+                lfptc['events'].append(music)
 
     return lfptc

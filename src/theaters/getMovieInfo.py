@@ -1,0 +1,4 @@
+
+
+def getMovieInfo(name):
+    pass

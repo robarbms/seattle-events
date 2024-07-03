@@ -1,0 +1,1352 @@
+{
+    "movies": [
+        {
+            "name": "Cinebarre",
+            "url": "https://www.regmovies.com/theatres/regal-cinebarre-mountlake-1958",
+            "location": {
+                "distance": 2.1,
+                "travelTime": 10
+            },
+            "data-options": {
+                "url": "https://www.regmovies.com/theatres/regal-cinebarre-mountlake-1958",
+                "frequency": 1440,
+                "last_updated": "03/07/2024 10:44:12"
+            },
+            "movies": [
+                {
+                    "title": "A Quiet Place: Day One (Open Cap/Eng Sub)",
+                    "times": [
+                        "1:00pm"
+                    ]
+                },
+                {
+                    "title": "The Bikeriders",
+                    "times": [
+                        "1:15pm",
+                        "4:45pm",
+                        "8:15pm"
+                    ]
+                },
+                {
+                    "title": "Inside Out 2",
+                    "times": [
+                        "1:30pm",
+                        "4:30pm",
+                        "7:45pm"
+                    ]
+                },
+                {
+                    "title": "Despicable Me 4",
+                    "times": [
+                        "2:00pm",
+                        "3:30pm",
+                        "5:00pm",
+                        "6:30pm",
+                        "8:00pm"
+                    ]
+                },
+                {
+                    "title": "A Quiet Place: Day One",
+                    "times": [
+                        "2:30pm",
+                        "4:00pm",
+                        "5:30pm",
+                        "7:00pm",
+                        "8:30pm"
+                    ]
+                },
+                {
+                    "title": "Daddio",
+                    "times": [
+                        "2:45pm",
+                        "6:00pm",
+                        "9:00pm"
+                    ]
+                },
+                {
+                    "title": "Horizon: An American Saga Chapter 1",
+                    "times": [
+                        "3:00pm",
+                        "7:30pm"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Anderson School Theater",
+            "url": "https://www.mcmenamins.com/anderson-school/",
+            "location": {
+                "distance": 5.2,
+                "travelTime": 25
+            },
+            "data-options": {
+                "url": "https://www.mcmenamins.com/anderson-school/anderson-school-theater",
+                "frequency": 1440,
+                "last_updated": "03/07/2024 10:44:12"
+            }
+        }
+    ],
+    "events": [
+        {
+            "name": "Town Center at Lake Forest Park",
+            "url": "https://www.thirdplacecommons.org/",
+            "location": {
+                "distance": 0.9,
+                "travelTime": 5
+            },
+            "data-options": {
+                "url": "https://www.thirdplacecommons.org/calendar/",
+                "frequency": 43200,
+                "checked": "03/07/2024 10:44:12"
+            },
+            "links": [
+                {
+                    "name": "Town Center at Lake Forest Park",
+                    "url": "https://www.towncenteratlakeforest.com/"
+                },
+                {
+                    "name": "Third Place Commons",
+                    "url": "https://www.thirdplacecommons.org/"
+                }
+            ],
+            "events": [
+                {
+                    "title": "Start Liners Writers Group",
+                    "date": {
+                        "day": "3",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Spanish Conversation",
+                    "date": {
+                        "day": "4",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Stadler Room"
+                },
+                {
+                    "title": "Lake Forest Park Farmers Market",
+                    "date": {
+                        "day": "7",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "10:00am",
+                    "end_time": "2:00pm",
+                    "location": "LFP Farmers Market (a Program of Third Place Commons)"
+                },
+                {
+                    "title": "German Conversation via ZOOM",
+                    "date": {
+                        "day": "8",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:30pm",
+                    "end_time": "9:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "French Conversation via ZOOM",
+                    "date": {
+                        "day": "9",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "TPC Movie Club via ZOOM",
+                    "date": {
+                        "day": "9",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:30pm",
+                    "end_time": "9:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "Juegemos en Espanol - Let's Play in Spanish",
+                    "date": {
+                        "day": "10",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:30pm",
+                    "location": "Stadler Room"
+                },
+                {
+                    "title": "Start Liners Writers Group",
+                    "date": {
+                        "day": "10",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Spanish Conversation",
+                    "date": {
+                        "day": "11",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Stadler Room"
+                },
+                {
+                    "title": "Seattle Saxophone Institute Middle School Showcase",
+                    "date": {
+                        "day": "11",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "6:00pm",
+                    "end_time": "7:00pm",
+                    "location": "Third Place Commons Stage"
+                },
+                {
+                    "title": "Moana - Seattle's Performers Summer Camp Performance",
+                    "date": {
+                        "day": "12",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "2:30pm",
+                    "end_time": "3:30pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Lake Forest Park Farmers Market",
+                    "date": {
+                        "day": "14",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "10:00am",
+                    "end_time": "2:00pm",
+                    "location": "LFP Farmers Market (a Program of Third Place Commons)"
+                },
+                {
+                    "title": "German Conversation via ZOOM",
+                    "date": {
+                        "day": "15",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:30pm",
+                    "end_time": "9:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "Lake Forest Park Open House with the Planning Commission",
+                    "date": {
+                        "day": "16",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "4:00pm",
+                    "end_time": "7:00pm",
+                    "location": "Third Place Commons Dance Zone"
+                },
+                {
+                    "title": "French Conversation IN PERSON",
+                    "date": {
+                        "day": "16",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "Commons Community Book Club via ZOOM",
+                    "date": {
+                        "day": "17",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:00pm",
+                    "end_time": "6:30pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "Start Liners Writers Group",
+                    "date": {
+                        "day": "17",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Spanish Conversation",
+                    "date": {
+                        "day": "18",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Stadler Room"
+                },
+                {
+                    "title": "Seattle Saxophone Institute High School Showcase",
+                    "date": {
+                        "day": "18",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "6:00pm",
+                    "end_time": "7:00pm",
+                    "location": "Third Place Commons Stage"
+                },
+                {
+                    "title": "League of Women Voters",
+                    "date": {
+                        "day": "18",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Stadler Room"
+                },
+                {
+                    "title": "Mean Girls / Jungle Book - Seattle's Performers Summer Camp Performance",
+                    "date": {
+                        "day": "19",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "2:30pm",
+                    "end_time": "3:30pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Crafts Day at the Lake Forest Park Farmers Market",
+                    "date": {
+                        "day": "21",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "10:00am",
+                    "end_time": "2:00pm",
+                    "location": "LFP Farmers Market (a Program of Third Place Commons)"
+                },
+                {
+                    "title": "German Conversation via ZOOM",
+                    "date": {
+                        "day": "22",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:30pm",
+                    "end_time": "9:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "French Conversation via ZOOM",
+                    "date": {
+                        "day": "23",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "Start Liners Writers Group",
+                    "date": {
+                        "day": "24",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Spanish Conversation",
+                    "date": {
+                        "day": "25",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Stadler Room"
+                },
+                {
+                    "title": "Antastasia - Seattle's Performers Summer Camp Performance",
+                    "date": {
+                        "day": "26",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "2:30pm",
+                    "end_time": "3:30pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Lake Forest Park Farmers Market",
+                    "date": {
+                        "day": "28",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "10:00am",
+                    "end_time": "2:00pm",
+                    "location": "LFP Farmers Market (a Program of Third Place Commons)"
+                },
+                {
+                    "title": "German Conversation via ZOOM",
+                    "date": {
+                        "day": "29",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:30pm",
+                    "end_time": "9:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "French Conversation IN PERSON",
+                    "date": {
+                        "day": "30",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Online - Check Listing for Link"
+                },
+                {
+                    "title": "Start Liners Writers Group",
+                    "date": {
+                        "day": "31",
+                        "month": 7,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons"
+                },
+                {
+                    "title": "Spanish Conversation",
+                    "date": {
+                        "day": "1",
+                        "month": 8,
+                        "year": "2024"
+                    },
+                    "start_time": "5:30pm",
+                    "end_time": "7:00pm",
+                    "location": "Stadler Room"
+                },
+                {
+                    "title": "Mike Faast and the Archtops - Swing",
+                    "band": "Mike Faast and the Archtops",
+                    "genre": "Swing",
+                    "date": {
+                        "day": "5",
+                        "month": 8,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons Stage"
+                },
+                {
+                    "title": "Stickshift Annie with Kimball and the Fugitives - Blues",
+                    "band": "Stickshift Annie with Kimball and the Fugitives",
+                    "genre": "Blues",
+                    "date": {
+                        "day": "6",
+                        "month": 8,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons Stage"
+                },
+                {
+                    "title": "Sheri Roberts Greimes & JoMomma - Blues",
+                    "band": "Sheri Roberts Greimes & JoMomma",
+                    "genre": "Blues",
+                    "date": {
+                        "day": "12",
+                        "month": 8,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons Stage"
+                },
+                {
+                    "title": "Rainy City Riff Raff - Big Band/Variety",
+                    "band": "Rainy City Riff Raff",
+                    "genre": "Big Band/Variety",
+                    "date": {
+                        "day": "13",
+                        "month": 8,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons Stage"
+                },
+                {
+                    "title": "Hopscotch - Jazz",
+                    "band": "Hopscotch",
+                    "genre": "Jazz",
+                    "date": {
+                        "day": "19",
+                        "month": 8,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons Stage"
+                },
+                {
+                    "title": "Rod Cook and Toast - Blues",
+                    "band": "Rod Cook and Toast",
+                    "genre": "Blues",
+                    "date": {
+                        "day": "20",
+                        "month": 8,
+                        "year": "2024"
+                    },
+                    "start_time": "7:00pm",
+                    "end_time": "9:00pm",
+                    "location": "Third Place Commons Stage"
+                }
+            ],
+            "music": []
+        },
+        {
+            "title": "Edmonds",
+            "url": "https://exploreedmonds.com/",
+            "location": {
+                "distance": 6.5,
+                "travelTime": 25
+            },
+            "data-options": {
+                "url": "https://exploreedmonds.com/events/",
+                "frequency": 1440,
+                "last_updated": "03/07/2024 10:44:12"
+            },
+            "events": [
+                {
+                    "title": "Live Music at Vinbero ",
+                    "time": " 7:00pm-9:00pm",
+                    "date": "2024-07-03T19:00:00-07:00",
+                    "description": "Local live music. Always starts at 7pm. $5 cover"
+                },
+                {
+                    "title": "An Edmonds Kind of 4th ",
+                    "time": " 8:00am - 2:00pm",
+                    "date": "2024-07-04T08:00:00-07:00",
+                    "description": "Join  thousands of cheering onlookers as we continue to celebrate all that is great about our community and country at this legacy event."
+                },
+                {
+                    "title": "Commons Tunes Concert Nights: Jazz Music ",
+                    "time": " 5:00pm - 7:00pm",
+                    "date": "2024-07-05T17:00:00-07:00",
+                    "description": "Jazz Music at Main Street Commons"
+                }
+            ]
+        }
+    ],
+    "food": [
+        {
+            "name": "Hellbent Brewing Company - food trucks",
+            "url": "https://hellbentbrewingcompany.com/",
+            "location": {
+                "distance": 3,
+                "travelTime": 15
+            },
+            "data-options": {
+                "url": "https://hellbentbrewingcompany.com/food-trucks/",
+                "frequency": 43200,
+                "last_updated": "03/07/2024 10:44:13"
+            },
+            "trucks": [
+                {
+                    "title": "No Truck - Hot Dog Day!",
+                    "date": {
+                        "day": "1",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Georgias Greek",
+                    "date": {
+                        "day": "2",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Plaza Garcia",
+                    "date": {
+                        "day": "3",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Los Papis",
+                    "date": {
+                        "day": "4",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Mexicuban",
+                    "date": {
+                        "day": "5",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Oskar's Pizza",
+                    "date": {
+                        "day": "6",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Tacos and Beer",
+                    "date": {
+                        "day": "7",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "1:00 pm",
+                    "end_time": "8:30 pm"
+                },
+                {
+                    "title": "No Truck",
+                    "date": {
+                        "day": "8",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Tacos and Beers",
+                    "date": {
+                        "day": "9",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Llama Fusion",
+                    "date": {
+                        "day": "10",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Tat's Deli",
+                    "date": {
+                        "day": "11",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Buddah Brothers",
+                    "date": {
+                        "day": "12",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Impeckable Chicken",
+                    "date": {
+                        "day": "13",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Mexicuban",
+                    "date": {
+                        "day": "14",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "2:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "No Truck",
+                    "date": {
+                        "day": "15",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Georgias Greek",
+                    "date": {
+                        "day": "16",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Plaza Garcia",
+                    "date": {
+                        "day": "17",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Momo express",
+                    "date": {
+                        "day": "18",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Mexicuban",
+                    "date": {
+                        "day": "19",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Oskar's Pizza",
+                    "date": {
+                        "day": "20",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Jessica's Unique Bites",
+                    "date": {
+                        "day": "21",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "No Truck",
+                    "date": {
+                        "day": "22",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Tacos and Beers",
+                    "date": {
+                        "day": "23",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Llama Fusion",
+                    "date": {
+                        "day": "24",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Tat's Deli",
+                    "date": {
+                        "day": "25",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Buddah Brothers",
+                    "date": {
+                        "day": "26",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Impeckable Chicken",
+                    "date": {
+                        "day": "27",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Mexicuban",
+                    "date": {
+                        "day": "28",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "2:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "No Truck",
+                    "date": {
+                        "day": "29",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "4:00 pm",
+                    "end_time": "8:00 pm"
+                },
+                {
+                    "title": "Georgias Greek",
+                    "date": {
+                        "day": "30",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                },
+                {
+                    "title": "Plaza Garcia",
+                    "date": {
+                        "day": "31",
+                        "month": "July",
+                        "year": "2024"
+                    },
+                    "start_time": "5:00 pm",
+                    "end_time": "9:00 pm"
+                }
+            ]
+        },
+        {
+            "title": "Ridgecrest Public House",
+            "url": "https://www.ridgecrest.pub/",
+            "location": {
+                "distance": 2.5,
+                "travelTime": 10
+            },
+            "data-options": {
+                "url": "https://www.ridgecrest.pub/foodtruckcalendar",
+                "frequency": 43200,
+                "last_updated": "03/07/2024 10:44:17"
+            },
+            "trucks": [
+                {
+                    "title": "MOM'S NIGHT",
+                    "date": {
+                        "day": 31,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Macho Burgers",
+                    "date": {
+                        "day": 31,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "El Gran Taco",
+                    "date": {
+                        "day": 30,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Oskars Pizza",
+                    "date": {
+                        "day": 29,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Where Ya At Matt",
+                    "date": {
+                        "day": 28,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Breakfast All Day (BRUNCH)",
+                    "date": {
+                        "day": 28,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "08:00 AM",
+                    "end_time": "02:00 PM"
+                },
+                {
+                    "title": "Naansense",
+                    "date": {
+                        "day": 27,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Mexicuban",
+                    "date": {
+                        "day": 26,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "DAD'S NIGHT",
+                    "date": {
+                        "day": 25,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Impeckable Chicken",
+                    "date": {
+                        "day": 25,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "MOM'S NIGHT",
+                    "date": {
+                        "day": 24,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Bai Tong on Wheels Thai food",
+                    "date": {
+                        "day": 24,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Theo's Gyros",
+                    "date": {
+                        "day": 23,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Oskars Pizza",
+                    "date": {
+                        "day": 22,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Outsider BBQ",
+                    "date": {
+                        "day": 21,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Sunny Up (BRUNCH)",
+                    "date": {
+                        "day": 21,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "08:00 AM",
+                    "end_time": "02:00 PM"
+                },
+                {
+                    "title": "Bella 'MBriana",
+                    "date": {
+                        "day": 20,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Momo Express",
+                    "date": {
+                        "day": 19,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "DAD'S NIGHT",
+                    "date": {
+                        "day": 18,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Georgia's Greek Food",
+                    "date": {
+                        "day": 18,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "MOM'S NIGHT",
+                    "date": {
+                        "day": 17,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Macho Burgers",
+                    "date": {
+                        "day": 17,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "El Gran Taco",
+                    "date": {
+                        "day": 16,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Oskars Pizza",
+                    "date": {
+                        "day": 15,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Where Ya At Matt",
+                    "date": {
+                        "day": 14,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Breakfast All Day (BRUNCH)",
+                    "date": {
+                        "day": 14,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "08:00 AM",
+                    "end_time": "02:00 PM"
+                },
+                {
+                    "title": "Naansense",
+                    "date": {
+                        "day": 13,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Mexicuban",
+                    "date": {
+                        "day": 12,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "DAD'S NIGHT",
+                    "date": {
+                        "day": 11,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Impeckable Chicken",
+                    "date": {
+                        "day": 11,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "MOM'S NIGHT",
+                    "date": {
+                        "day": 10,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Bai Tong on Wheels Thai food",
+                    "date": {
+                        "day": 10,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Theo's Gyros",
+                    "date": {
+                        "day": 9,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Oskars Pizza",
+                    "date": {
+                        "day": 8,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Outsider BBQ",
+                    "date": {
+                        "day": 7,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Sunny Up (BRUNCH)",
+                    "date": {
+                        "day": 7,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "08:00 AM",
+                    "end_time": "02:00 PM"
+                },
+                {
+                    "title": "Bella 'MBriana",
+                    "date": {
+                        "day": 6,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Momo Express",
+                    "date": {
+                        "day": 5,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "CLOSED today. Have a safe and happy 4th everyone!!",
+                    "date": {
+                        "day": 4,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "01:00 PM",
+                    "end_time": "11:00 PM"
+                },
+                {
+                    "title": "MOM'S NIGHT",
+                    "date": {
+                        "day": 3,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "07:00 PM",
+                    "end_time": "09:00 PM"
+                },
+                {
+                    "title": "Macho Burgers",
+                    "date": {
+                        "day": 3,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "El Gran Taco",
+                    "date": {
+                        "day": 2,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                },
+                {
+                    "title": "Oskars Pizza",
+                    "date": {
+                        "day": 1,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "start_time": "05:00 PM",
+                    "end_time": "08:00 PM"
+                }
+            ]
+        }
+    ]
+}
