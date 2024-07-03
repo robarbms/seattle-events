@@ -5,7 +5,7 @@ import re
 def getHellbent():
 
     hellbent = {
-        'name': 'Hellbent Brewing Company - food trucks',
+        'name': 'Hellbent Brewing Company',
         'url': 'https://hellbentbrewingcompany.com/',
         'location': {
             'distance': 3,
