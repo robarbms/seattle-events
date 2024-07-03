@@ -10,7 +10,7 @@ from utils.dataCleaning import dataCleaning
 def getRidgecrest():
 
     ridgecrest = {
-        'title': 'Ridgecrest Public House',
+        'name': 'Ridgecrest Public House',
         'url': 'https://www.ridgecrest.pub/',
         'location': {
             'distance': 2.5,
