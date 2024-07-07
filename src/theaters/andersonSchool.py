@@ -4,7 +4,7 @@ from utils import getPage, getDate
 def getAndersonSchool():
     andersonSchool = {
         'name': 'Anderson School Theater',
-        'url': 'https://www.mcmenamins.com/anderson-school/',
+        'url': 'https://www.mcmenamins.com/anderson-school',
         'location': {
             'distance': 5.2,
             'travelTime': 25,
@@ -15,7 +15,7 @@ def getAndersonSchool():
             'last_updated': getDate()
         }
     }
-    response = getPage(andersonSchool['url'])
+    response = getPage(andersonSchool['data-options']['url'])
 
     if isinstance(response, BeautifulSoup):
         soup = response
