@@ -73,7 +73,8 @@ def getLFPTC():
             event_info = title_no_stamp.replace(title, '')
             date_time = re.match(r' \- (Mon|Tue|Wed|Thu|Fri|Sat|Sun), (([a-zA-Z]{3}) (\d{1,2})), (\d{4}) (\d{1,2}:\d{2}(am|pm)) - (\d{1,2}:\d{2}(am|pm)) @ (.*)', event_info)
             weekday = date_time[1]
-            month_day = date_time[2]
+            months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            month_day = date_time[3]
             day = date_time[4]
             title = title.strip()
             title = title.replace(' - Live Music brought to you by Third Place Commons!', '')
@@ -93,7 +94,7 @@ def getLFPTC():
                     'genre': genre,
                     'date': {
                         'day': day,
-                        'month': month,
+                        'month': months.index(month_day) + 1,
                         'year': year
                     },
                     'start_time': start,
@@ -101,6 +102,7 @@ def getLFPTC():
                     'location': location
                 }
 
-                lfptc['events'].append(music)
+                lfptc['music'].append(music)
+
 
     return lfptc

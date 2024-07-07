@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from utils import getPage, getDate
 
-def getCrest ():
+def getCrest():
     crest = {
         'name': 'Landmark Crest Cinema Center',
         'url': 'https://www.landmarktheatres.com/our-locations/x00mt-landmark-crest-cinema-center-shoreline/',
