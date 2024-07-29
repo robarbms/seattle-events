@@ -25,6 +25,8 @@ def getEdmonds():
             hasDate = event.find('time')
             if hasDate:
                 date = hasDate.text
+                dateTimeParts = date.split('T')
+                dateParts = dateTimeParts[0].split('-')
                 time = event.find('h5', {'class': 'post-author'}).text
                 title = event.find('h5', {'class': 'post-title'}).text
                 description = event.find('p')
@@ -33,7 +35,11 @@ def getEdmonds():
                 edmonds['events'].append({
                     'title': title,
                     'time': time,
-                    'date': date,
+                    'date': {
+                        'day': int(dateParts[2]),
+                        'month':int(dateParts[1]),
+                        'year': int(dateParts[0])
+                    },
                     'description': description
                 })
 
