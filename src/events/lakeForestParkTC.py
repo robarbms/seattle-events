@@ -32,36 +32,39 @@ def getLFPTC():
     eventsFeed = getPage('https://www.calendarwiz.com/calendars/rssfeeder.xml?crd=thirdplacecommonsevents&len=200&days=30&events=100&title=Third%20Place%20Commons%20Calendar%20Events&cat=25374')
     if isinstance(eventsFeed, BeautifulSoup):
         for event in eventsFeed.find_all('item'):
-            title_text = event.find('title').text
-            date_time_stamp = re.match(r'^\d{2}\.\d{2}\.\d{2} \d{1,2}:\d{2}', title_text)
-            title_no_stamp = title_text.replace(date_time_stamp[0], '')
-            title = re.match(r' *(.*(?= \- (Mon|Tue|Wed|Thu|Fri|Sat|Sun)))', title_no_stamp)[0]
-            event_info = title_no_stamp.replace(title, '')
-            date_time = re.match(r' \- (Mon|Tue|Wed|Thu|Fri|Sat|Sun), (([a-zA-Z]{3}) (\d{1,2})), (\d{4}) (\d{1,2}:\d{2}(am|pm)) - (\d{1,2}:\d{2}(am|pm)) @ (.*)', event_info)
-            weekday = date_time[1]
-            month_day = date_time[2]
-            month = getMonthDigit(date_time[3])
-            day = date_time[4]
+            try:
+                title_text = event.find('title').text
+                date_time_stamp = re.match(r'^\d{2}\.\d{2}\.\d{2} \d{1,2}:\d{2}', title_text)
+                title_no_stamp = title_text.replace(date_time_stamp[0], '')
+                title = re.match(r' *(.*(?= \- (Mon|Tue|Wed|Thu|Fri|Sat|Sun)))', title_no_stamp)[0]
+                event_info = title_no_stamp.replace(title, '')
+                date_time = re.match(r' \- (Mon|Tue|Wed|Thu|Fri|Sat|Sun), (([a-zA-Z]{3}) (\d{1,2})), (\d{4}) (\d{1,2}:\d{2}(am|pm)) - (\d{1,2}:\d{2}(am|pm)) @ (.*)', event_info)
+                weekday = date_time[1]
+                month_day = date_time[2]
+                month = getMonthDigit(date_time[3])
+                day = date_time[4]
 
-            year = date_time[5]
-            start = date_time[6]
-            end = date_time[8]
-            location = date_time[10]
-            title = title.strip()
+                year = date_time[5]
+                start = date_time[6]
+                end = date_time[8]
+                location = date_time[10]
+                title = title.strip()
 
-            event = {
-                'title': title,
-                'date': {
-                    'day': day,
-                    'month': month,
-                    'year': year
-                },
-                'start_time': start,
-                'end_time': end,
-                'location': location
-            }
+                event = {
+                    'title': title,
+                    'date': {
+                        'day': day,
+                        'month': month,
+                        'year': year
+                    },
+                    'start_time': start,
+                    'end_time': end,
+                    'location': location
+                }
 
-            lfptc['events'].append(event)
+                lfptc['events'].append(event)
+            except:
+                print("Could not parse event")
         
     musicFeed = getPage('https://www.calendarwiz.com/calendars/rssfeeder.xml?crd=thirdplacecommonsevents&len=200&days=30&events=100&title=Third%20Place%20Commons%20Calendar%20Events&cat=34461')
     if isinstance(musicFeed, BeautifulSoup):
