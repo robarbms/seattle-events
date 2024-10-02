@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from utils import getPage, getDate
+from utils import getPage, getDate, getMonthDigit
 import re
 
 def getHellbent():
@@ -35,9 +35,9 @@ def getHellbent():
             hellbent['trucks'].append({
                 'title': title,
                 'date': {
-                    'day': day,
-                    'month': month,
-                    'year': year,
+                    'day': int(day),
+                    'month': getMonthDigit(month),
+                    'year': int(year),
                 },
                 'start_time': start,
                 'end_time': end

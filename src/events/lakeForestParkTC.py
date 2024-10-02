@@ -53,9 +53,9 @@ def getLFPTC():
                 event = {
                     'title': title,
                     'date': {
-                        'day': day,
+                        'day': int(day),
                         'month': month,
-                        'year': year
+                        'year': int(year)
                     },
                     'start_time': start,
                     'end_time': end,
@@ -96,9 +96,9 @@ def getLFPTC():
                     'band': band,
                     'genre': genre,
                     'date': {
-                        'day': day,
+                        'day': int(day),
                         'month': months.index(month_day) + 1,
-                        'year': year
+                        'year': int(year)
                     },
                     'start_time': start,
                     'end_time': end,
